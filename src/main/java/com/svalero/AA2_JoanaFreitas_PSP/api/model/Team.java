@@ -13,6 +13,6 @@ public class Team {
     String city;
     String conference;
     String division;
-    String fullName;
+    String full_name;
     String name;
 }
