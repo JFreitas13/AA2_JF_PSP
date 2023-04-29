@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
+
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(R.getUI("/main.fxml"));
         loader.setController(new AppController());
